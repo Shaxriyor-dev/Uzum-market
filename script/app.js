@@ -1,4 +1,4 @@
-const login1 = document.getElementById("login-1");
+
 const login2 = document.getElementById("login-2");
 const login3 = document.getElementById("login-3");
 
@@ -75,3 +75,17 @@ btn4.addEventListener("click", () => {
     window.location.href = "pages/Hammasi.html";
   }, 500);
 });
+
+
+
+const btn9 = document.querySelector('.btn-3');
+const sss = document.querySelector('.sss');
+const dsdsd = document.querySelector('.dsdsd');
+const lockscreen = document.querySelector('.lock-screen');
+
+btn9.addEventListener('click' , ()=>{
+    lockscreen.classList.toggle('samo');
+    sss.classList.toggle('yulduz');
+    dsdsd.classList.toggle('samo')
+})
+

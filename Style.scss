@@ -166,7 +166,7 @@ a:hover {
 
 swiper-container {
   width: 79rem;
-  height: 400px;
+  height: 405px;
   margin-top: 30px;
   border-radius: 10px;
   border: solid 1px none;
@@ -179,13 +179,7 @@ swiper-slide {
   border-radius: 10px;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(7, 6, 92, 1) 28%,
-    rgba(9, 9, 121, 1) 35%,
-    #6f73ee 100%
-  );
+   background: linear-gradient(to bottom, #410a74, #912ff3);
 }
 
 swiper-slide img {
@@ -783,6 +777,7 @@ footer {
   display: flex;
   align-items: center;
 }
+
 .killo{
   padding: 0px 7px;
   color: #000000;
@@ -799,15 +794,37 @@ footer {
 }
 
 
-
-
-
-
-
-
-
-.accaund-login{
-  width: 85rem;
-  height: 700px;
+.lock-screen{
+  display: none;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  z-index: 100;
   background: #fff;
 }
+
+
+.dsdsd{
+  display: none;
+  font-size: 23px;
+  font-weight: 800;
+  transition: 0.5s;
+}
+
+.yulduz{
+  display: none;
+  transition: 0.5s;
+}
+
+.samo{
+  display: block;
+}
+
+
+
+
+
+
+
+
+
