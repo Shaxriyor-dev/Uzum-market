@@ -84,8 +84,10 @@ const dsdsd = document.querySelector('.dsdsd');
 const lockscreen = document.querySelector('.lock-screen');
 
 btn9.addEventListener('click' , ()=>{
+  setTimeout(() => {
     lockscreen.classList.toggle('samo');
     sss.classList.toggle('yulduz');
     dsdsd.classList.toggle('samo')
+}, 500);
 })
 
