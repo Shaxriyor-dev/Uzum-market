@@ -929,4 +929,51 @@ footer {
   line-height: 34px;
   margin-top: 10px;
   font-family: "Jost", serif;
+}
+
+@media screen and (max-width: 950px) {
+  .input-border {
+    width: 100%;
+  }
+  .check-icon {
+    display: none;
+  }
+  .text-1 {
+    font-size: 20px;
+  }
+  .Otvorish {
+    display: none;
+  }
+  swiper-container {
+    width: 100%;
+  }
+  .sarch-1 {
+    width: 100%;
+  }
+  .box-itemis {
+    height: 350px;
+    width: 300px;
+  }
+  .img-conta {
+    height: 250px;
+    width: 240px;
+  }
+  .img-3 {
+    height: 100px;
+    width: 100px;
+  }
+  .text-p {
+    margin: 0px;
+  }
+  .tex {
+    margin: 0px;
+  }
+  .constt {
+    padding: 0px;
+    margin: 0px;
+  }
+  .horta {
+    margin-top: 22%;
+    margin-left: 70%;
+  }
 }/*# sourceMappingURL=Style.css.map */
